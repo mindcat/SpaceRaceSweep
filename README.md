@@ -8,21 +8,22 @@ My experience modifying and building a 34 key ferris sweep keyboard I themed aft
 Item | Notes | Amount | Total Cost
 ---|---|---|--:
 <a href="">PCB Fabricator</a>|Other vendors also work...|5 (minimum order size- use 2)|$12
-<a href="">Jade switches</a>|lorem |34|$20
-<a href="">Keycaps</a>|Keycaps with letters go in and out of stock often.|5 (minimum order size- use 2)|$12
+<a href="">Jade switches</a>|Choose whichever switch you like the feel of most- get a sample of a bunch if necessary, as this board is NOT hot-swappable. |34|$20
+<a href="">Keycaps</a>|Keycaps with letters go in and out of stock often, and are more expensive.|34|$12-$35
 <a href="">Elite-C V4</a>|Any microcontroller with this footprint works. I recommend USB C mc's, and look for bluetooth if you want a wireless keyboard.|2|$40 
-<a href="">USB-C Cable</a>|||$8
-<a href="">TRRS Jacks</a>|||$1
-<a href="">TRRS Cable</a>|||$4
+<a href="">USB-C Cable</a>|You want data and power, but it doesn't have to handle much of either.||$8
+<a href="">TRRS Jacks</a>|...|2|$1
+<a href="">TRRS Cable</a>|...|1|$4
 
 ### Hardware
 - Soldering Iron
 - Tweezers [optional]
-- Multimeter (not strictly, but VERY useful for checking electric continuity- if a key doesn't work, you can identify whether the issue is in the software, the pcb, the MCU or switch pads, or the switch) [optional]
+- Multimeter (not strictly, but VERY useful for checking electric continuity- if a key doesn't work, you can identify whether the issue is in the software, the pcb, the MC or switch pads, or the switch) [optional]
 - Rosin (I didn't use any, but makes the microcontroller far easier to solder) [optional]
 ### Software
 - KiCad
 - QMK (command line, qmk toolbox, VIAL, et cetera- use what tools you need)
+- Text editor or IDE [semi-optional]
 - Adobe Illustrator (or a FOSS alternative) [optional]
 ### Skills
 - 
@@ -51,7 +52,9 @@ Item | Notes | Amount | Total Cost
 ![](https://raw.githubusercontent.com/mindcat/media_repository/main/spacerace/build3.png)
 
 ## Software
+'''c
 
+'''
 
 ## [OPTIONAL] 3D Printed Case
 
