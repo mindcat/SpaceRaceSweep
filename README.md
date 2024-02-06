@@ -17,13 +17,13 @@ Item | Notes | Amount | Total Cost
 
 ### Hardware
 - Soldering Iron
-- Tweezers
-- Multimeter (not strictly, but VERY useful for checking electric continuity)
-- Rosin (I didn't use any, but makes the microcontroller far easier to solder)
+- Tweezers [optional]
+- Multimeter (not strictly, but VERY useful for checking electric continuity- if a key doesn't work, you can identify whether the issue is in the software, the pcb, the MCU or switch pads, or the switch) [optional]
+- Rosin (I didn't use any, but makes the microcontroller far easier to solder) [optional]
 ### Software
 - KiCad
 - QMK (command line, qmk toolbox, VIAL, et cetera- use what tools you need)
-- Adobe Illustrator (or a FOSS alternative)
+- Adobe Illustrator (or a FOSS alternative) [optional]
 ### Skills
 - 
 
